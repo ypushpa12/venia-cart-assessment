@@ -1,0 +1,88 @@
+
+@mixin buttons  ($color){
+    background-color: $color;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 1rem;
+}
+
+.red_div { 
+   @include buttons(#172026)
+}
+.red_div1 {  
+    @include buttons(#DFE1E2)
+}
+.red_div2 { 
+    @include buttons(#2D9D78)
+}
+.red_div3 { 
+    @include buttons(#FDBA5E)
+}
+.red_div4 {   
+    @include buttons(#7950E8)
+}
+.red_div5{  
+    @include buttons(#E34850)
+}
+.red_div6 {   
+    @include buttons(#6408D3)
+}
+.red_div7 {  
+    @include buttons(#F9009A)
+}
+
+.colorfilter {
+    display: flex;
+    gap: 2px;
+}
+.showmor a{
+    color:black;
+}
+label{
+    padding-left: 10px;
+    padding-top:10px;
+}
+.filter{
+    padding-top:20px;
+    color: #181C24;
+    font-size: 14px;
+}
+
+
+.bread .mobile{
+    display: none;
+  }
+  
+  // Media Quries
+  
+  @media only screen and (max-width: 768px){
+    .bread .desk{
+      display: none;
+    }
+    
+    .bread .mobile{
+      display: block;
+    }
+    .mobile .cato{
+        font-size: 1.5rem;
+    }
+    .mobile h5{
+      padding-top: 2rem;
+      text-align: center;
+      text-decoration: underline;
+    }
+    .mobile h6{
+      font-size: 1.2rem;
+      text-align: center;
+      padding-top: 3rem;
+    }
+  
+    .filterone{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 320px){
+    .filterone{
+        display:none;
+    }
+  }

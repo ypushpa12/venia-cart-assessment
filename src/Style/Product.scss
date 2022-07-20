@@ -1,0 +1,137 @@
+@mixin swatchcolor ($color) {
+    background: $color;
+    margin-right: 10px;
+}
+
+$blackcolor: #172026;
+
+.swatch img {
+    padding-left: 0px;
+    width: 66px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.swatchone {
+    @include swatchcolor(#3D84FF)
+}
+
+.swatchtwo {
+    @include swatchcolor(#c21273)
+}
+
+.swatchthree {
+    @include swatchcolor(#172026)
+}
+
+.swatchfour {
+    @include swatchcolor(#B5B8BA)
+}
+
+.Details h6 {
+    padding-left: 20px;
+}
+
+.Details h5 {
+    padding-left: 15px;
+}
+
+.detailsone h6 {
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.detailstwo {
+    padding-top: 0px !important;
+}
+
+.addtocart {
+    width: 300px;
+    height: 40px;
+
+    background: var(--primary-brand) 0% 0% no-repeat padding-box;
+    background: #1F39FF 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+}
+
+.save a {
+    text-decoration: none;
+    color: $blackcolor;
+    font-size: 20px;
+    /* text-align: center; */
+    padding-right: 25px;
+}
+
+.save {
+    padding-left: 90px;
+}
+
+.addtocart {
+    color: white;
+    border: none;
+}
+
+.star a {
+    color: $blackcolor;
+    font-size: 14px;
+}
+
+.star ul {
+    padding-left: 0px;
+}
+
+p {
+    color: $blackcolor;
+}
+
+.Producttitle {
+    padding-top: 40px;
+}
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 766px) {
+  
+
+    .Sizebutton button {
+
+        width: 47px;
+    }
+    .oneprice img{
+     height:270px;
+     width: 270px;
+    }
+    // .Sweat-wicking h4 {
+    //   padding-left: 70px;
+    // }
+    .Sweat-wicking h5 {
+        padding-left: 116px;
+      }
+      .Details h5 {
+        padding-left: 119px;
+    }
+    .Details h6 {
+        padding-left: 3px;
+    }
+    .detailsone{
+        padding-left: 127px;
+        margin-top: -73px;
+        margin-bottom: -96px;
+    }
+   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+    .oneprice{
+        text-align: center;
+    }
+    .rating-one{
+        text-align: center;
+    }
+    .Producttitle{
+        text-align: center;
+    }
+}

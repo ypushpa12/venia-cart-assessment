@@ -1,0 +1,108 @@
+.herosection{
+  font-family: 'Source Serif Pro', serif;
+}
+
+.herosection .card-body {
+    height: 20rem;
+    background-color: #1B252C;
+  }
+  .herosection .card-title {
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 4rem;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .card-img-top {
+    height: 19rem;
+    margin-top: 8px; 
+  }
+  .lines img{
+    width: 122px;
+    margin-left: 81px;
+  }
+  .herosection{
+    padding-top: 33px;
+    padding-bottom: 12px;
+  }
+  
+  .lines hr{
+    background-color: #1F39FF !important;
+    height: 0.5rem !important;
+    width: 9rem;
+    margin: 3rem 6rem;
+    opacity: 3;
+  }
+  .awq{
+    display:none;
+  }
+  
+  
+
+  @media only screen and (min-width: 320px) and (max-width: 765px) {
+    .mnb{
+      display:none;
+    }
+    .awq{
+      display:block;
+    }
+
+    .cardone{
+      margin-top: -77px;
+      margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    }
+    .herosection .card-body {
+      height: 11rem;
+      background-color: #1B252C;
+  }
+  .herosection .card-title {
+    
+    padding-top: 0rem;
+  
+  }
+  .herosection {
+    padding-top: 3px; 
+  }
+ 
+  
+  }
+
+  @media only screen and (min-width: 766px) and (max-width: 1020px) {
+    .mnb{
+      display:none;
+    }
+    .awq{
+      display:block;
+    }
+
+    .cardone{
+      margin-top: -77px;
+      margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    }
+    .herosection .card-body {
+      height: 11rem;
+      background-color: #1B252C;
+  }
+  .herosection .card-title {
+    
+    padding-top: 0rem;
+  
+  }
+  .herosection {
+    padding-top: 3px; 
+  }
+  .lines hr {
+    background-color: #1F39FF !important;
+    height: 0.5rem !important;
+    width: 14%;
+    margin: 3rem 22rem;
+    border-radius: 15px 15px;
+    opacity: 3;
+}
+ 
+  
+  }
